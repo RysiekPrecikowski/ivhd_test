@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 ubuntu:22.04  AS ubuntu_with_libs
+FROM ubuntu:22.04  AS ubuntu_with_libs
 
 RUN apt update
 
